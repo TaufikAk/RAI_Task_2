@@ -1,0 +1,32 @@
+	body{
+		font-family:"Times New Roman", Times, serif;
+		font-size:18px;
+		font-weight:italic;
+		background-color:pink;
+	}
+	table, th, td{
+		border:2px solid black;
+		border-collapse:collapse;
+		text-align:left;
+		padding:5px;
+	}
+	ul#navigasi{
+		padding:0;
+	}
+	ul#navigasi li {
+		display:inline;
+		font-size:200%;
+	}
+	ul#navigasi li a {
+		background-color:yellow;
+		padding:5px 10px;
+		text-decoration:none;
+		border-radius:4px 4px 0 0;
+	}
+	ul#navigasi a:hover {
+		background-color:pink;
+	}
+	ul#navigasi a:active{
+		background-color:red;
+		color:yellow;
+	}
