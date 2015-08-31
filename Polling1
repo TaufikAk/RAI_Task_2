@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	* {
+    	box-sizing: border-box;
+	}
+	body{
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size:16px;
+		font-weight:bold;
+		text-align:justify;
+		margin:opx;
+		background-image:url("background2.jpg");
+	}
+	.main {
+    	width: 30%;
+		float:left;
+    	padding: 15px;
+    	border: 1px solid black;
+	}
+	ul#navigasi{
+		padding:0;
+	}
+	ul#navigasi li {
+		display:inline;
+		font-size:200%;
+	}
+	ul#navigasi li a {
+		background-color:yellow;
+		padding:5px 10px;
+		text-decoration:none;
+		border-radius:4px 4px 0 0;
+	}
+	ul#navigasi a:hover {
+		background-color:pink;
+	}
+	ul#navigasi a:active{
+		background-color:red;
+		color:yellow;
+	}
+</style>
+</head>
+<body>
+<ul id="navigasi">
+		<li><a href="home.html"><b>Home</b></a></li>
+		<li><a href="spongebobs.html"><b>Character</b></a></li>
+        <li><a href="Polling1.html"><b>Polling Karakter v1.1</b></a></li>
+        <li><a href="Polling2.html"><b>Polling Karakter v1.2</b></a></li>
+	</ul>
+<h1>Polling Spongebob 1</h1>
+<div class="main">
+<form>
+	Apakah karakter utama kesukaan kalian?<br><br>
+	<input type="checkbox" name="kar" value="spongebob">Spongebob<br>
+  <input type="checkbox" name="kar" value="patrick">Patrick<br>
+  <input type="checkbox" name="kar" value="gary">Gary<br>
+  <input type="checkbox" name="kar" value="squidward">Squidward<br>
+	<input type="checkbox" name="kar" value="sandy">Sandy<br>
+  <input type="checkbox" name="kar" value="mr_crab">Mr. Crab<br>
+  <input type="checkbox" name="kar" value="plankton">Plankton<br>
+  <input type="checkbox" name="kar" value="larry">Larry<br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+</html>
