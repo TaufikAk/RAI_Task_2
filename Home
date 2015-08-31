@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		font-size:16px;
+		font-weight:bold;
+		text-align:justify;
+		background-image:url("background.jpg");
+		margin:opx;
+	}
+	table{
+		margin:0px auto;
+		margin-right:500px;
+	}
+	table, th, td{
+		border:2px solid black;
+		border-collapse:collapse;
+		text-align:left;
+		padding: 5px;
+	}
+	ul#navigasi{
+		padding:0;
+	}
+	ul#navigasi li {
+		display:inline;
+		font-size:200%;
+	}
+	ul#navigasi li a {
+		background-color:yellow;
+		padding:5px 10px;
+		text-decoration:none;
+		border-radius:4px 4px 0 0;
+	}
+	ul#navigasi a:hover {
+		background-color:pink;
+	}
+	ul#navigasi a:active{
+		background-color:red;
+		color:yellow;
+	}
+</style>
+</head>
+<body>
+	<ul id="navigasi">
+		<li><a href="home.html"><b>Home</b></a></li>
+		<li><a href="spongebobs.html"><b>Character</b></a></li>
+        <li><a href="Polling1.html"><b>Polling Karakter v1.1</b></a></li>
+        <li><a href="Polling2.html"><b>Polling Karakter v1.2</b></a></li>
+	</ul>
+	<br>
+	<h1>Spongebob</h1>
+	<table>
+		<tr>
+        <td><p>Spongebob Squarepants adalah spons kuning yang tinggal didalam laut di sebuah nanas bersama binatang peliharaanya seekor siput yang bernama Gary. Spongebob bekerja di sebuah restoran yang bernama krusty krabby sebagai koki dan membuat krabby patty yang terkenal di bikini bottom. Ciri-ciri khas dari Spongebob adalah:</p>
+        <ol type="1">
+  			<li>Berwarna kuning</li>
+  			<li>Menggunakan celana kotak</li>
+  			<li>Suka bekerja di krusty crab walaupun tidak dibayar</li>
+		</ol> 
+        </td>
+    </table>
+
+</body>
+</html>
