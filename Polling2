@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css_eksternal.css">
+</head>
+<body>
+
+<ul id="navigasi">
+		<li><a href="home.html"><b>Home</b></a></li>
+		<li><a href="spongebobs.html"><b>Character</b></a></li>
+        <li><a href="Polling1.html"><b>Polling Karakter v1.1</b></a></li>
+        <li><a href="Polling2.html"><b>Polling Karakter v1.2</b></a></li>
+	</ul>
+<h1>Polling Spongebob 1</h1>
+<table>
+	<tr>
+    <td>
+	<form>
+		Apakah karakter utama kesukaan kalian?<br><br>
+		<input type="checkbox" name="kar" value="spongebob">Spongebob<br>
+  	<input type="checkbox" name="kar" value="patrick">Patrick<br>
+  	<input type="checkbox" name="kar" value="gary">Gary<br>
+  	<input type="checkbox" name="kar" value="squidward">Squidward<br>
+		<input type="checkbox" name="kar" value="sandy">Sandy<br>
+  	<input type="checkbox" name="kar" value="mr_crab">Mr. Crab<br>
+  	<input type="checkbox" name="kar" value="plankton">Plankton<br>
+  	<input type="checkbox" name="kar" value="larry">Larry<br><br>
+  	<input type="submit" value="Submit">
+	</form>
+    </td>
+</table>
+
+</body>
+</html>
